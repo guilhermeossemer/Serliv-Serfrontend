@@ -21,7 +21,7 @@ body{
 
 .main-content-serliv{
     min-height: 100vh;
-    background-image:linear-gradient(transparent, black 70%), url(/img/space.jpg);
+    background-image:linear-gradient(transparent, black 70%), url(../img/space.jpg);
     background-position: top center;
     background-size: contain;
     display: flex;
@@ -195,7 +195,7 @@ a, a svg{
 }
 
 .main-title{
-    background-image: url(/img/home-bg4.jpg);
+    background-image: url(../img/home-bg4.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
