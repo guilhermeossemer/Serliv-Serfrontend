@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+:root{
+    --color-gray-medium: #8f8f8f;/**/
+    --color-red-bright: #EE3231;/**/
+    --color-text: #404040; /**/
+    --color-gray: #808080; /**/
+    --color-gray-light: #dfdfdf; /**/
+    --color-a: #0085A1; /**/
+    --color-black: #000000; 
+    --color-header: #5B1716; 
+    --color-font: #fff;  
+}
+
+body{
+    margin: 0 auto;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.main-content-serliv{
+    min-height: 100vh;
+    background-image:linear-gradient(transparent, black 70%), url(/img/space.jpg);
+    background-position: top center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.serliv{
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.logo-serliv{
+    width: 60%;
+    height: auto;
+    max-width: 22.31em;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.serliv p a{
+    text-decoration: underline;
+}
+
+.serliv h1{
+    color: var(--color-gray-medium);
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    margin: 4em 0;
+    letter-spacing: 2px;
+}
+
+.serliv h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.08em;
+    letter-spacing: 2px;
+    margin: 3em 1em 0;
+    background: linear-gradient(to bottom, #B9B9B9, #4E4E4E);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.serliv p{
+    color: var(--color-gray-medium);
+    margin-top: 6em;
+    margin: 8em 1em 0;
+    font-size: .8em;
+}
+
+.serliv p a{
+    color: var(--color-gray-medium);
+}
+
+.contact{
+    margin-top: 2em;
+}
+
+.icon-contact{
+    padding: 0 .3em;
+    width: 1.2em;
+    height: 1.2em;
+    fill: var(--color-gray-medium);
+    margin-bottom: 2em;
+}
+
+a, a svg{
+    text-decoration: none;
+}
+
+.icon-contact:hover{
+    fill: #e7e7e7;
+}
+
+.btn-serliv{
+    font-weight: normal;
+    font-size: .8em;
+    margin: 0 1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: .7em 1.2em;
+    background-color:var(--color-red-bright);
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all .5s;
+}
+
+.btn-serliv a{
+    text-decoration: none;
+    color: var(--color-font);
+}
+
+.btn-serliv:hover{
+    background-color: var(--color-black-color);
+    outline: 1px solid var(--color-red-bright);
+    
+}
+
+/*------------------------------------------------------------------------------------------*/
+
+.hero-section {
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 22.5em;
+}
+
+.hero-section ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+.hero-section ul li{
+    width: 100%;
+    color: var(--color-font);
+    font-size: 1.25em;
+    text-align: center;
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-weight: 100;
+    margin-top: .3em;
+}
+
+.hero-section ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--color-font-color);
+    padding: 1em 0 .7em 0;
+}
+
+.hero-section ul li a:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: .01em;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background-color: #992a28;
+    transition: all .3s ease-in-out;
+}
+
+.hero-section ul li a:hover:after{
+    width: 100%;
+    left: 0;
+}
+
+.hero-content{
+    width: 78%;
+    text-align: center;
+}
+
+.logo{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    max-width: 18.73em;
+    align-items: center;
+}
+
+.main-title{
+    background-image: url(/img/home-bg4.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 19em;
+    margin: 0 auto;
+    color: var(--color-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main-title-pag-blog{
+    height: 16em;
+}
+
+.main-title-pag-tag{
+    height: 13em;
+}
+
+.main-title-pag-cursos{
+    height: 22em;
+}
+
+.main-title h1{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.25em;
+    font-weight: 800;
+    line-height: 1.1em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.underline {
+    border-bottom: 3px solid var(--color-font);  
+    width: 6em;
+    margin-top: 1em;
+}
+
+.article-row{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: .5em;
+    margin-top: 4em;
+}
+
+.article-row-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin: 3em 1em;
+}
+
+.card{
+    width: 100%;
+    border: 1px solid var(--color-gray-light);
+    border-radius: 5px;
+    padding: .3em;
+    box-sizing: border-box;
+}
+
+.card-link{
+    display: block;
+    width: 100%;
+
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card h1{
+    text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 850;
+    font-style: italic;
+    font-size: 24px;
+    color: var(--color-text);
+    flex-wrap: wrap;
+}
+
+.links{
+    margin-top: 2em;
+    width: 100%;
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.links-tag, .links-blog{
+    margin-top: 1.5em;
+}
+
+.links-blog:last-of-type{
+    margin-bottom: 3em;
+}
+
+.links-tag a, .links-blog a{
+    font-size: 1.375em;
+    color: var(--color-text);
+}
+
+.text{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 1.875em;
+}
+
+.text:hover{
+    color:var(--color-a);
+}
+
+.date{
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 1.125em;
+    text-align: left;
+    font-weight: 200;
+    color: var(--color-gray);
+}
+
+.date-blog{
+    font-size: 1em;
+    margin-top: .5em;
+}
+
+.line{
+    border: none;
+    border-top: 1px solid var(--color-gray-light);
+    width: 100%;
+}
+
+.btn{
+    box-sizing: border-box;
+    align-self: flex-end; 
+    margin-top: 1em;
+    cursor: pointer;
+    border: 1px solid var(--color-gray-light);
+    background-color: var(--color-font);
+    padding: 1em;
+    text-align: center;
+}
+
+.btn a{
+    display: inline-block;
+    line-height: normal;
+    color: var(--color-red-bright);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .1em;
+}
+
+.btn:hover{
+    background-color: var(--color-a);
+    border: 1px solid var(--color-a);
+}
+
+.btn:hover a{
+    color: var(--color-font);
+}
+
+.footer{
+    margin-top: 4em;
+    background-color: #ccc;
+    padding-top: .5em;
+    text-align: center;
+    color: var(--color-gray);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p{
+    font-size: 1em;
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--color-red-bright);
+}
+
+.footer a:hover{
+    color: var(--color-a);
+}
+
+.footer-tag .footer-blog{
+    margin: 0;
+    margin-top: 4em;
+}
+
+.icon-contact-footer{
+    display: block;
+    width: 1em;
+    height: 1em;
+    fill: var(--color-font);
+}
+
+.background-icon-footer{
+    display: inline-block;
+    align-items: center;
+    background-color: var(--color-red-bright);
+    border-radius: 50%;
+    padding: .5em;
+    margin: .5em;
+}
+
+.background-icon-footer:hover{
+    background-color: var(--color-a);
+}
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+
+

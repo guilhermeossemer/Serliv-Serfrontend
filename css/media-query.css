@@ -1,0 +1,226 @@
+@media screen and (min-width:26.25em) { /*420px*/
+    .main-title-pag-blog{
+        height: 13em;
+    }
+}
+
+@media screen and (min-width: 31.25em) { /*500px*/
+    .serliv{
+        width: 85%;
+    }
+    .serliv h1{
+        margin: 0;
+        margin-top: 5em;
+        margin-bottom: 2em; 
+    }
+    .logo-serliv{
+        margin-bottom: 3em;
+        width: 70%;
+        height: auto;
+        max-width: 23.125em;
+        margin: 0 auto;
+    }
+    .serliv h2{
+        margin: 0;
+        margin-top: 2em;
+        margin-bottom: 4em;
+        font-size: 1.35em;
+    }
+    .serliv p{
+        margin: 0 auto;
+        max-width: calc(31.25em * 0.8);
+        text-align: center;
+        font-size: 1em;
+    }
+    .contact{
+        padding: 1em 1em;
+    }
+    .btn-serliv{
+        font-size: 1em;
+    }
+}
+
+/*---------------------------------------------------------------*/
+@media screen and (min-width:35.12em) { /*562px*/
+    .main-title-pag-cursos{
+        height: 18em;
+    }
+}
+
+@media screen and (min-width:37.5em) { /*600px*/
+    .article-row-cards{
+        margin: 3em 1em;
+        justify-content: center;
+        gap: 2em;
+    }
+    .card{
+        width: 45%;
+        max-width: 21.56em;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 47.5em) { /*760px*/
+    .hero-section{
+        height: 7em;
+    }
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-content ul{
+        width: 50%;
+        justify-content: center;
+        display: flex;
+        gap: 2.2em;
+    }
+    .hero-content ul li{
+        margin: 0;
+    }
+    .hero-content ul li a{
+        display: block;
+        white-space: nowrap;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 48em) { /*768px*/
+    .hero-section{
+        margin: 0 auto;
+        padding: .9em 0 .05em;
+    }
+    .main-title{
+        height: 37.5em;
+    }
+    .main-title-pag-blog, .main-title-pag-tag{
+        height: 25em;
+    }
+    .main-title-pag-cursos{
+        height: 36em;
+    }
+    .main-title h1{
+        width: 70%;
+        font-size: 5em;
+    }
+    .main-title-pag-blog h1{
+        width: 100%;
+    }
+    .main-title-pag-cursos h1{
+        width: 8em;
+    }
+    .article-row{
+        margin: 3em auto;
+        width: 95%;
+        max-width: calc(48em * 0.95);
+        
+    }
+    .article-row-blog, .article-row-tag{
+        width: 45em;
+        margin: 0 auto;
+        margin-top: 4em;
+    }
+    .links-blog{
+        width: 95%;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 61.25em){ /*980px*/
+    .hero-section {
+        display: flex;
+        box-sizing: border-box;
+        height: 4.3em;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2em; 
+    }
+    .hero-section ul {
+        width: 25em;
+        margin-top: .7em;
+    }
+    .hero-content{
+        margin: 0 auto;
+        gap: 18em;
+        flex-direction: row;
+        
+    }
+    .logo {
+        position: relative;
+        width: 13.065em;
+    }
+    .main-title{
+        height: 27.5em;
+
+    }
+    .main-title-pag-blog, .main-title-pag-tag{
+        height: 20.5em;
+    }
+    .main-title-pag-cursos{
+        height: 26em;
+    }
+    .main-title h1{
+        width: 90%;
+    }
+    .card{
+        max-width: 27.5em;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 62em){ /*990px*/
+    .main-title{
+        height: 33em;
+    }
+    .main-title-pag-blog, .main-title-pag-tag{
+        height: 20.5em;
+    }
+    .main-title-pag-cursos{
+        height: 26em;
+    }
+    .main-title h1{
+        width: 50%;
+    }
+    .main-title-pag-blog h1, .main-title-cursos h1{
+        width: 100%;
+    }
+    .article-row{
+        width: 75%;
+        max-width: calc(61.25em * 0.75);
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    .article-row-cards{
+        margin: 3em auto;
+        max-width: 57.1em;
+        justify-content: flex-start;
+    }
+    .card{
+        width: 17.68em;
+    }
+}
+
+@media screen and (min-width: 75em) { /*1200px*/
+    .article-row{
+        width: 50%;
+        max-width: calc(62em * 0.6);
+    }
+    .main-title h1{
+        width: 40%;
+        max-width: calc(62em * 0.4);
+    }
+    .main-title-pag-blog h1{
+        width: 100%;
+    }
+    .main-title-pag-cursos h1{
+        width: 70%;
+        max-width: 10em;
+    }
+    .logo{
+       left: 0;
+    }
+}
